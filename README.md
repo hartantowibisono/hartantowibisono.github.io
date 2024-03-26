@@ -8,11 +8,11 @@
 		</div>
 		<style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #21ED8B;
-		font-family: "Helvetica", sans-serif;
+		background-color: #005290;
+		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #21ED8B;
+		outline: 1px solid #005290;
 	}
 </style>
 
@@ -45,14 +45,14 @@
 			'https://cunning-bear-snzeo3-dev-ed.my.site.com/testhelpcenter',
 			gslbBaseURL,
 			'00D5i00000AeOsE',
-			'Chat_Team_1',
+			'Chat_Team_2',
 			{
 				baseLiveAgentContentURL: 'https://c.la2-c2-hnd.salesforceliveagent.com/content',
 				deploymentId: '5725i000000p5gj',
-				buttonId: '5735i000000YK8H',
+				buttonId: '5735i000000YKH6',
 				baseLiveAgentURL: 'https://d.la2-c2-hnd.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Chat_Team_1',
-				isOfflineSupportEnabled: false
+				eswLiveAgentDevName: 'Chat_Team_2',
+				isOfflineSupportEnabled: true
 			}
 		);
 	};
